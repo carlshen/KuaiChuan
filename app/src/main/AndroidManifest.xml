@@ -39,6 +39,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
         </activity>
         <activity
             android:name=".ui.MainActivity"
@@ -94,7 +101,7 @@
             android:theme="@android:style/Theme.Translucent" />
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="io.github.mayubao.kuaichuan.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">

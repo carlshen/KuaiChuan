@@ -3,6 +3,8 @@
 
 仿茄子快传的一款文件传输应用， 涉及到Socket通信，包括TCP，UDP通信。（喜欢的给一个star, 有帮助的给一个fork， 欢迎Star和Fork ^_^）
 
+已经升级到了AndroidX, SDK29。感谢原作者的分享。
+
 [下载](http://fir.im/6ntz) 点击下载去下载应用。
 
 ## 效果预览
@@ -58,13 +60,13 @@ stackoverflow  <http://stackoverflow.com/>
 
 
 ## issue
-QQ:345269374
+QQ:2926711810
 
-Email:345269374@qq.com
+Email:2926711810@qq.com
 
 
 ## License
-    Copyright 2016 mayubao
+    Copyright 2022 carl shen
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

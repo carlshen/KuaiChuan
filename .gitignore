@@ -6,3 +6,14 @@
 .DS_Store
 /build
 /captures
+.idea/
+.gradle/
+# Generated files
+bin/
+gen/
+out/
+# Keystore files
+*.jks
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
